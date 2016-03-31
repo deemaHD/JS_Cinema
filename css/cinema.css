@@ -1,0 +1,98 @@
+.cinema{
+	position:relative;
+	background: url('..\\pictures\\main.jpg') 50%  100% no-repeat;
+	width:100%;
+	height:1024px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.cinema__seats{
+	position:relative;
+	top: 20%;
+	left:31%;
+	width:50%;
+	height:500px;
+	display:none;
+	box-sizing: border-box;
+	opacity: 0.8;
+}
+.cinema__table{
+	width:500px;
+}
+
+.cinema__table caption{
+	text-align: center;
+	font-size: 30px;
+	color: #00ff00;
+}
+
+.cinema__table td{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #009900;
+	text-align: center;
+	background-color: yellow;
+	border-radius: 10px;
+	font-size: 20px;
+	color:#009900;
+}
+
+.cinema__table tr>td:first-child{
+	background-color:#00ff00;
+	font-size: 20px;
+	color:white;
+}
+
+.cinema__table td.booked{
+	background-color:red;
+	color:white;
+}
+
+.cinema__table td.free{
+	background-color:yellow;
+	color:#009900;
+}
+
+.cinema__seats .btn{
+	width:300px;
+	margin-left: 100px;
+	margin-top: 20px;
+	background-color: #009900;
+	font-size: 20px;
+	opacity: 0.8;
+	color:white;
+}
+
+.cinema__buttons .btn{
+	margin-top: 20px;
+	margin-left:20px;
+	height:45px;
+	opacity: 0.8;
+	color:#ffcc00;
+	background-color: #cc6600;
+	font-size: 20px;
+}
+.cinema__buttons .btn:last-child{
+	display:none;
+}
+.cinema__buttons .btn:first-child{
+	display:inline-block;
+}
+.cinema__freeSeats{
+	position: absolute;
+	border-radius: 5px;
+	background-color: #cc6600;
+	color: white;
+	width: 200px;
+	height: 60px;
+	top:90px;
+	left:20px;
+	text-align: center;
+	opacity: 0.8;
+	display: none;
+	box-sizing: border-box;
+}
+.cinema__freeSeats p{
+	font-size: 20px;
+}
